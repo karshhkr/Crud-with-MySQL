@@ -1,3 +1,5 @@
+## “This is a Spring Boot RESTful CRUD application using MySQL and Spring Data JPA.
+## I used layered architecture with DTOs, repository abstraction, Hibernate ORM, and Dockerized  MySQL for environment consistency.”
 # 📌 Features
 -Create, Read, Update, Delete (CRUD) operations for User Management
 
