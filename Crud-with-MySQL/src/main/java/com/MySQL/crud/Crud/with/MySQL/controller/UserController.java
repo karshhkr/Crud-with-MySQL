@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping
+@RequestMapping("/users")
 public class UserController {
     @Autowired
     private UserService userService;
@@ -35,11 +35,11 @@ public class UserController {
          return ResponseEntity
                  .ok().body("User Updated Sucessfully");
 
-     }@DeleteMapping
+     }@DeleteMapping("/{id}")
       public ResponseEntity<String> deleteUser(@PathVariable String id) {
         userService.deleteUser(id);
           return ResponseEntity
-                  .ok().body("User Updated Sucessfully");
+                  .ok().body("User Deleted Sucessfully");
       }
 }
 
