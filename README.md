@@ -40,18 +40,24 @@ src/main/java/com/karshhkr/usermanagement/
 ├── dto/           # Data Transfer Objects
 └── exception/     # Global Error Handling
 
+---
+
 ## Installation and set-up 
 git clone [https://github.com/karshhkr/Crud-with-MySQL.git](https://github.com/karshhkr/Crud-with-MySQL.git)
 cd Crud-with-MySQL
 
+----
 
 ## Run with Docker(Recommended)
 
 docker-compose up --build
 
+---
 ## Run Locally 
 
 ./gradlew bootRun
+
+---
 
 ## Api Endpoint 
 
@@ -61,4 +67,6 @@ GET /api/users Retrieve all users
 GET /api/users/{id} Get user by ID
 PUT /api/users/{id} Update existing user
 DELETE /api/users/{id} Remove a user
+
+---
 
